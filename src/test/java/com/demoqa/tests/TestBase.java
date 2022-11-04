@@ -25,7 +25,7 @@ public class TestBase {
         Configuration.browser = SystemProperties.browser();
         Configuration.browserVersion = SystemProperties.browserVersion();
         Configuration.browserSize = SystemProperties.browserSize();
-        if (System.getProperty("remote") != null) {
+        if (System.getProperty("remoteUrl") != null) {
             Configuration.remote = System.getProperty("remoteUrl");
         }
     }
