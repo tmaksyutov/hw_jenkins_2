@@ -1,2 +1,5 @@
-package com.demoqa.properties;public class SystemProperties {
+package com.demoqa.properties;
+
+public class SystemProperties {
+
 }
