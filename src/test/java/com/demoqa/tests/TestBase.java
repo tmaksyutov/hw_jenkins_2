@@ -10,30 +10,32 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
-    public class TestBase {
+public class TestBase {
 
-        @BeforeAll
-        static void configure(){
-            SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
-            DesiredCapabilities capabilities = new DesiredCapabilities();;
-            capabilities.setCapability("enableVNC", true);
-            capabilities.setCapability("enableVideo", true);
+    @BeforeAll
+    static void configure() {
+        SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
+        DesiredCapabilities capabilities = new DesiredCapabilities();
+        capabilities.setCapability("enableVNC", true);
+        capabilities.setCapability("enableVideo", true);
 
-            Configuration.browserCapabilities = capabilities;
-            Configuration.baseUrl = "https://demoqa.com";
-            Configuration.browser = SystemProperties.browser();
-            Configuration.browserVersion = SystemProperties.browserVersion();
-            Configuration.browserSize = SystemProperties.browserSize();
-            if (!SystemProperties.remoteUrl().equals("")) {
-                Configuration.remote = SystemProperties.remoteUrl();
-            }
-        }
-        @AfterEach
-        void addAttachments() {
-            Attach.screenshotAs("Last Screenshot");
-            Attach.pageSource();
-            Attach.browserConsoleLogs();
-            Attach.addVideo();
+        Configuration.browserCapabilities = capabilities;
+        Configuration.baseUrl = "https://demoqa.com";
+
+        Configuration.browser = SystemProperties.browser();
+        Configuration.browserVersion = SystemProperties.browserVersion();
+        Configuration.browserSize = SystemProperties.browserSize();
+        if (System.getProperty("remoteUrl") != null) {
+            Configuration.remote = System.getProperty("remoteUrl");
         }
     }
+
+    @AfterEach
+    void addAttachments() {
+        Attach.screenshotAs("Last Screenshot");
+        Attach.pageSource();
+        Attach.browserConsoleLogs();
+        Attach.addVideo();
+    }
+}
 
