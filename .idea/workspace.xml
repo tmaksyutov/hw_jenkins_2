@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd4d815a-0081-4687-80cb-ebd120ee26fa" name="Changes" comment="">
+    <list default="true" id="bd4d815a-0081-4687-80cb-ebd120ee26fa" name="Changes" comment="completed homework">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoqa/properties/SystemProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/tests/properties/SystemProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoqa/tests/RegistrationFormWithTestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/tests/RegistrationFormWithTestData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoqa/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/tests/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,6 +159,14 @@
       <option name="presentableId" value="Default" />
       <updated>1667555878309</updated>
     </task>
+    <task id="LOCAL-00001" summary="completed homework">
+      <created>1667560929774</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667560929774</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -175,5 +179,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="completed homework" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed homework" />
   </component>
 </project>
