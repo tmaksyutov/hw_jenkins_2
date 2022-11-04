@@ -7,6 +7,11 @@ repositories {
     mavenCentral()
 }
 
+compileTestJava {
+    options.encoding = 'UTF-8'
+}
+
+
 def allureVersion = "2.19.0",
     slf4jVersion = "2.0.3"
 
@@ -46,3 +51,8 @@ tasks.withType(Test) {
     }
 }
 
+task test_form(type: Test) {
+    useJUnitPlatform {
+        includeTags "test_form"
+    }
+}

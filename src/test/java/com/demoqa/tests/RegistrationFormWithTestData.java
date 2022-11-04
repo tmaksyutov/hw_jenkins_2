@@ -1,27 +1,23 @@
 package com.demoqa.tests;
 
 import com.demoqa.pages.RegistrationFormPage;
-import io.qameta.allure.Owner;
-import io.qameta.allure.Severity;
-import io.qameta.allure.SeverityLevel;
-import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import static com.demoqa.testData.UserData.*;
 import static io.qameta.allure.Allure.step;
 
 public class RegistrationFormWithTestData extends TestBase {
     RegistrationFormPage registrationFormPage = new RegistrationFormPage();
-    @DisplayName("Форма регистрации")
-    @Owner("Тимур Максютов")
-    @Severity(SeverityLevel.BLOCKER)
+
     @Test
+    @Tag("test_form")
     void fillFormTest () {
 
-        step("Открываем страницу",() -> {
+        step("Open page",() -> {
             registrationFormPage.openPage();
         });
 
-        step("Вводим данные", () -> {
+        step("Set data", () -> {
             registrationFormPage.setFirstName(firstName)
                     .setLastName(lastName)
                     .setEmail(email)
@@ -36,11 +32,11 @@ public class RegistrationFormWithTestData extends TestBase {
                     .setCity(city);
         } );
 
-        step("Нажимаем кнопку Submit", () -> {
+        step("Click button Submit", () -> {
             registrationFormPage.setSubmit();
         });
 
-        step("Проверяем результат", () ->{
+        step("Check result", () ->{
             registrationFormPage.checkResultsTableVisible()
                     .checkResultTableData(firstName, lastName, email, gender,
                             number, date, hobby, subject, picture, address, state, city);
