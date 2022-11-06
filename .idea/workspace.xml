@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd4d815a-0081-4687-80cb-ebd120ee26fa" name="Changes" comment="completed homework">
-      <change afterPath="$PROJECT_DIR$/allure-report/widgets/summary.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notifications/allure-notifications-4.2.1.jar" afterDir="false" />
+    <list default="true" id="bd4d815a-0081-4687-80cb-ebd120ee26fa" name="Changes" comment="added allure-notifications-4.2.1.jar">
       <change afterPath="$PROJECT_DIR$/notifications/draft.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/notifications/telegram.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -262,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667569341399</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added allure-notifications-4.2.1.jar">
+      <created>1667736291958</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1667736291959</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -278,6 +282,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="completed homework" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed homework" />
+    <MESSAGE value="added allure-notifications-4.2.1.jar" />
+    <option name="LAST_COMMIT_MESSAGE" value="added allure-notifications-4.2.1.jar" />
   </component>
 </project>
