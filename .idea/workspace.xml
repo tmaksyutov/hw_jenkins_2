@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd4d815a-0081-4687-80cb-ebd120ee26fa" name="Changes" comment="added allure-notifications-4.2.1.jar">
-      <change afterPath="$PROJECT_DIR$/notifications/draft.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notifications/telegram.json" afterDir="false" />
-    </list>
+    <list default="true" id="bd4d815a-0081-4687-80cb-ebd120ee26fa" name="Changes" comment="added config" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,13 +76,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/TMaksyutov/IdeaProjects/hw_jenkins_2/allure-report/widgets"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/TMaksyutov/IdeaProjects/hw_jenkins_2/allure-report/widgets&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\TMaksyutov\IdeaProjects\hw_jenkins_2\allure-report\widgets" />
@@ -266,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667736291959</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added config">
+      <created>1667736978202</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1667736978202</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -283,6 +287,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="completed homework" />
     <MESSAGE value="added allure-notifications-4.2.1.jar" />
-    <option name="LAST_COMMIT_MESSAGE" value="added allure-notifications-4.2.1.jar" />
+    <MESSAGE value="added config" />
+    <option name="LAST_COMMIT_MESSAGE" value="added config" />
   </component>
 </project>
