@@ -42,13 +42,27 @@ public class MainPageTests extends TestBase {
     }
 
     @Test
-    @DisplayName("Available services")
+    @DisplayName("Dashboard")
     void dashboardShouldBeVisibleTest() {
         step("Open url 'https://ufa.hh.ru/'", () ->
                 open("https://ufa.hh.ru/"));
 
         step("Dashboard visibility check'", () -> {
             $(".dashboard-tiles-wrapper").shouldBe(visible);
+        });
+    }
+
+    @Test
+    @DisplayName("Page console log should not have errors")
+    void consoleShouldNotHaveErrorsTest() {
+        step("Open url 'https://ufa.hh.ru/'", () ->
+                open("https://ufa.hh.ru/"));
+
+        step("Console logs should not contain text 'SEVERE'", () -> {
+            String consoleLogs = DriverUtils.getConsoleLogs();
+            String errorText = "SEVERE";
+
+            assertThat(consoleLogs).doesNotContain(errorText);
         });
     }
 
