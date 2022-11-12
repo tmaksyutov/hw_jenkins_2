@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd4d815a-0081-4687-80cb-ebd120ee26fa" name="Changes" comment="completed homework">
-      <change afterPath="$PROJECT_DIR$/allure-report/widgets/summary.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notifications/allure-notifications-4.2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notifications/draft.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notifications/telegram.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/tests/MainPageTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/utils/DriverUtils.java" afterDir="false" />
+    <list default="true" id="bd4d815a-0081-4687-80cb-ebd120ee26fa" name="Changes" comment="delete token and chat_id">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoqa/tests/RegistrationFormWithTestData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoqa/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notifications/telegram.json" beforeDir="false" afterPath="$PROJECT_DIR$/notifications/telegram.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +40,12 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="hw_jenkins_2" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hw_jenkins_2" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="verification" type="c8890929:TasksNode$1" />
               </path>
             </expand>
@@ -76,13 +74,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/TMaksyutov/IdeaProjects/hhru_15/src/test/java/com/demoqa"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/TMaksyutov/IdeaProjects/hhru_15/src/test/java/com/demoqa&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\TMaksyutov\IdeaProjects\hhru_15\src\test\java\com\demoqa" />
