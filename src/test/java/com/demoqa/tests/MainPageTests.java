@@ -21,10 +21,10 @@ public class MainPageTests extends TestBase {
                 open("https://ufa.hh.ru/"));
 
         step("Enter text in the search bar", () ->
-                $("#a11y-search-input").setValue("QA automation").pressEnter());
+                $("#a11y-search-input").setValue("QA").pressEnter());
 
         step("Checking for vacancies", () ->
-                $("#a11y-main-content").shouldHave(text("QA automation")));
+                $("#a11y-main-content").shouldHave(text("QA")));
     }
 
     @Test
