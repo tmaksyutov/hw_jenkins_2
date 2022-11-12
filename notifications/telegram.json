@@ -1,10 +1,10 @@
 {
   "base": {
     "project": "some project",
-    "environment": "some env",
+    "environment": "qa.guru",
     "comment": "some comment",
     "reportLink": "",
-    "language": "en",
+    "language": "ru",
     "allureFolder": "allure-report/",
     "enableChart": true
   },
