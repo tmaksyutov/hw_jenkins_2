@@ -31,6 +31,8 @@ allure {
 
 dependencies {
     testImplementation(
+            "org.assertj:assertj-core:3.19.0",
+            "org.aspectj:aspectjweaver:1.9.6",
             "com.codeborne:selenide:6.8.1",
             "io.qameta.allure:allure-selenide:$allureVersion",
             "org.junit.jupiter:junit-jupiter:5.9.0",
@@ -51,8 +53,3 @@ tasks.withType(Test) {
     }
 }
 
-task test_form(type: Test) {
-    useJUnitPlatform {
-        includeTags "test_form"
-    }
-}

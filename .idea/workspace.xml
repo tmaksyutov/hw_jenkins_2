@@ -5,6 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd4d815a-0081-4687-80cb-ebd120ee26fa" name="Changes" comment="completed homework">
+      <change afterPath="$PROJECT_DIR$/allure-report/widgets/summary.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notifications/allure-notifications-4.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notifications/draft.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notifications/telegram.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/tests/MainPageTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/utils/DriverUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoqa/tests/RegistrationFormWithTestData.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/demoqa/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/tests/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +25,37 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hw_jenkins_2" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hw_jenkins_2" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hw_jenkins_2" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -36,20 +76,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/TMaksyutov/IdeaProjects/hw_jenkins_2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/TMaksyutov/IdeaProjects/hhru_15/src/test/java/com/demoqa"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\TMaksyutov\IdeaProjects\hhru_15\src\test\java\com\demoqa" />
+      <recent name="C:\Users\TMaksyutov\IdeaProjects\hhru_15" />
       <recent name="C:\Users\TMaksyutov\IdeaProjects\hw_jenkins_2" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.demoqa.utils" />
+    </key>
   </component>
-  <component name="RunManager" selected="Gradle.SystemProperties.simpleProperty3Test">
-    <configuration name="RegistrationFormWithTestData" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.MainPageTests">
+    <configuration name="MainPageTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -62,7 +107,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.demoqa.tests.RegistrationFormWithTestData&quot;" />
+            <option value="&quot;com.demoqa.tests.MainPageTests&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -72,7 +117,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SystemProperties.simpleProperty1Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MainPageTests.consoleShouldNotHaveErrorsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -85,7 +130,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.demoqa.tests.properties.SystemProperties.simpleProperty1Test&quot;" />
+            <option value="&quot;com.demoqa.tests.MainPageTests.consoleShouldNotHaveErrorsTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -95,7 +140,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SystemProperties.simpleProperty2Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MainPageTests.jobSearchTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -108,7 +153,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.demoqa.tests.properties.SystemProperties.simpleProperty2Test&quot;" />
+            <option value="&quot;com.demoqa.tests.MainPageTests.jobSearchTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -118,7 +163,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SystemProperties.simpleProperty3Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RegistrationFormWithTestData.fillFormTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -131,7 +176,30 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.demoqa.tests.properties.SystemProperties.simpleProperty3Test&quot;" />
+            <option value="&quot;com.demoqa.tests.RegistrationFormWithTestData.fillFormTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="RegistrationFormWithTestData.jobSearchTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.demoqa.tests.RegistrationFormWithTestData.jobSearchTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -143,10 +211,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.SystemProperties.simpleProperty3Test" />
-        <item itemvalue="Gradle.SystemProperties.simpleProperty2Test" />
-        <item itemvalue="Gradle.SystemProperties.simpleProperty1Test" />
-        <item itemvalue="Gradle.RegistrationFormWithTestData" />
+        <item itemvalue="Gradle.MainPageTests" />
+        <item itemvalue="Gradle.MainPageTests.jobSearchTest" />
+        <item itemvalue="Gradle.MainPageTests.consoleShouldNotHaveErrorsTest" />
+        <item itemvalue="Gradle.RegistrationFormWithTestData.jobSearchTest" />
+        <item itemvalue="Gradle.RegistrationFormWithTestData.fillFormTest" />
       </list>
     </recent_temporary>
   </component>
