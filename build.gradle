@@ -31,8 +31,8 @@ allure {
 
 dependencies {
     testImplementation(
-            "org.assertj:assertj-core:3.19.0",
-            "org.aspectj:aspectjweaver:1.9.6",
+            "org.assertj:assertj-core:3.23.1",
+            "org.aspectj:aspectjweaver:1.9.9.1",
             "com.codeborne:selenide:6.8.1",
             "io.qameta.allure:allure-selenide:$allureVersion",
             "org.junit.jupiter:junit-jupiter:5.9.0",
@@ -44,6 +44,16 @@ dependencies {
 tasks.withType(Test) {
     systemProperties(System.getProperties())
     useJUnitPlatform()
+
+    if (System.getProperty("threads") != null) {
+        systemProperties += [
+                'junit.jupiter.execution.parallel.enabled'                 : true,
+                'junit.jupiter.execution.parallel.mode.default'            : 'concurrent',
+                'junit.jupiter.execution.parallel.mode.classes.default'    : 'concurrent',
+                'junit.jupiter.execution.parallel.config.strategy'         : 'fixed',
+                'junit.jupiter.execution.parallel.config.fixed.parallelism': System.getProperty("threads").toInteger()
+        ]
+    }
 
     testLogging {
         lifecycle {

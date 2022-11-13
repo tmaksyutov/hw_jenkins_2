@@ -3,7 +3,7 @@ package com.demoqa.tests;
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import com.demoqa.helpers.Attach;
-import com.demoqa.tests.properties.SystemProperties;
+import com.demoqa.properties.SystemProperties;
 import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;

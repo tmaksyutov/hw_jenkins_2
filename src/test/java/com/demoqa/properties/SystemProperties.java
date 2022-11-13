@@ -1,4 +1,4 @@
-package com.demoqa.tests.properties;
+package com.demoqa.properties;
 
 
 public class SystemProperties {
