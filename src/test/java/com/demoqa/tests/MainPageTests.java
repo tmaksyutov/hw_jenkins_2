@@ -15,50 +15,50 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class MainPageTests extends TestBase {
 
     @Test
-    @DisplayName("Job search")
+    @DisplayName("Поиск работы")
     void jobSearchTest() {
-        step("Open url 'https://ufa.hh.ru/'", () ->
+        step("Открыть 'https://ufa.hh.ru/'", () ->
                 open("https://ufa.hh.ru/"));
 
-        step("Enter text in the search bar", () ->
+        step("Ввести текст в поисковую строку", () ->
                 $("#a11y-search-input").setValue("QA").pressEnter());
 
-        step("Checking for vacancies", () ->
+        step("Проверить отображение вакансий", () ->
                 $("#a11y-main-content").shouldHave(text("QA")));
     }
 
     @Test
-    @DisplayName("Available services")
+    @DisplayName("Отображение сервисов для соискателей")
     void servicesShouldBeVisibleTest() {
-        step("Open url 'https://ufa.hh.ru/'", () ->
+        step("Открыть 'https://ufa.hh.ru/'", () ->
                 open("https://ufa.hh.ru/"));
 
-        step("Go to services section'", () ->
+        step("Перейти в раздел 'Все сервисы'", () ->
                 $(".supernova-overlay").$(byText("Все сервисы")).click());
 
-        step("Section visibility check'", () -> {
+        step("Проверка отображения блока 'Сервисы для соискателей'", () -> {
             $(".bloko-header-1").shouldBe(visible);
         });
     }
 
     @Test
-    @DisplayName("Dashboard")
+    @DisplayName("Отображение дашборда")
     void dashboardShouldBeVisibleTest() {
-        step("Open url 'https://ufa.hh.ru/'", () ->
+        step("Открыть 'https://ufa.hh.ru/'", () ->
                 open("https://ufa.hh.ru/"));
 
-        step("Dashboard visibility check'", () -> {
+        step("Проверка отображения дашбоода", () -> {
             $(".dashboard-tiles-wrapper").shouldBe(visible);
         });
     }
 
     @Test
-    @DisplayName("Page title should have header text")
+    @DisplayName("Проверка наличия главной страницы")
     void titleTest() {
-        step("Open url 'https://ufa.hh.ru/'", () ->
+        step("Открыть 'https://ufa.hh.ru/'", () ->
                 open("https://ufa.hh.ru/"));
 
-        step("Page title should have text 'Работа в Уфе, поиск персонала и публикация вакансий - ufa.hh.ru'", () -> {
+        step("Заголовок страницы имеет текст 'Работа в Уфе, поиск персонала и публикация вакансий - ufa.hh.ru'", () -> {
             String expectedTitle = "Работа в Уфе, поиск персонала и публикация вакансий - ufa.hh.ru";
             String actualTitle = title();
 
