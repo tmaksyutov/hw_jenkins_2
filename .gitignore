@@ -41,5 +41,3 @@ target/
 /gradlew
 /gradlew.bat
 /settings.gradle
-/notifications/
-/allure-report/
