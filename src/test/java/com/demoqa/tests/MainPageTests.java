@@ -15,20 +15,20 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class MainPageTests extends TestBase {
 
     @Test
-    @DisplayName("Поиск работы")
+    @DisplayName("Job search")
     void jobSearchTest() {
-        step("Открыть 'https://ufa.hh.ru/'", () ->
+        step("Open url 'https://ufa.hh.ru/'", () ->
                 open("https://ufa.hh.ru/"));
 
-        step("Ввести текст в поиск", () ->
+        step("Enter text in the search bar", () ->
                 $("#a11y-search-input").setValue("QA").pressEnter());
 
-        step("Проверить отображаемые вакансии", () ->
+        step("Checking for vacancies", () ->
                 $("#a11y-main-content").shouldHave(text("QA")));
     }
 
     @Test
-    @DisplayName("Отображение сервисов для соискателей")
+    @DisplayName("Available services")
     void servicesShouldBeVisibleTest() {
         step("Open url 'https://ufa.hh.ru/'", () ->
                 open("https://ufa.hh.ru/"));
