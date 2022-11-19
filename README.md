@@ -1,4 +1,4 @@
-## Проект по автоматизации тестирования сайта <img width="10%" title="Allure TestOPS" src="images/logo/hhru.svg">
+## <img width="7%" title="Allure TestOPS" src="images/logo/hh_logo.svg"> Проект по автоматизации тестирования сайта hh.ru
 
 ##	Содержание
 
