@@ -7,7 +7,7 @@
 - [Запуск тестов из терминала](#computer-Запуск-тестов-из-терминала)
 - [Запуск тестов в Jenkins](#jenkins-Запуск-тестов-в-Jenkins)
 - [Отчет о результатах тестирования в Allure Report](#allure_report-Отчет-о-результатах-тестирования-в-Allure-report)
-- [Интеграция с Allure TestOps](#allure_test_ops-Интеграция-с-allure-testops)
+- [Интеграция с Allure TestOps](#-Интеграция-с-allure-testops)
 - [Интеграция с Jira](#jira-Интеграция-с-jira)
 - [Уведомления в Telegram с использованием бота](#telegram-Уведомления-в-telegram-с-использованием-бота)
 - [Пример запуска теста в Selenoid](#selenoid-Пример-запуска-теста-в-selenoid)
