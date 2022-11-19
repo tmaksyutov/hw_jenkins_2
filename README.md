@@ -5,7 +5,7 @@
 - [Технологии и инструменты](#technologist-технологии-и-инструменты)
 - [Реализованы проверки](#bookmark_tabs-реализованы-проверки)
 - [Запуск тестов из терминала](#computer-запуск-тестов-из-терминала)
-- [Запуск тестов в Jenkins](#-запуск-тестов-в-Jenkins)
+- [Запуск тестов в Jenkins](#-запуск-тестов-в-jenkins)
 - [Отчет о результатах тестирования в Allure Report](#allure_report-Отчет-о-результатах-тестирования-в-Allure-report)
 - [Интеграция с Allure TestOps](#-Интеграция-с-allure-testops)
 - [Интеграция с Jira](#jira-Интеграция-с-jira)
@@ -70,7 +70,7 @@ gradle clean test
 
  <code>THREADS</code> - параллельный запуск тестов (_по умолчанию - 5_).
 
-## <img width="20" title="Jenkins" src="images/logo/Jenkins_logo.svg">  Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/hhru_15/)
+## <img width="4%" title="Jenkins" src="images/logo/Jenkins_logo.svg">  Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/hhru_15/)
 
 Для запуска сборки необходимо указать значения параметров и нажать кнопку <code><strong>*Собрать*</strong></code>.
 
