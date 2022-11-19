@@ -6,11 +6,11 @@
 - [Реализованы проверки](#bookmark_tabs-реализованные-проверки)
 - [Запуск тестов из терминала](#computer-запуск-тестов-из-терминала)
 - [Запуск тестов в Jenkins](#-запуск-тестов-в-jenkins)
-- [Отчет о результатах тестирования в Allure Report](#allure_report-Отчет-о-результатах-тестирования-в-Allure-report)
-- [Интеграция с Allure TestOps](#-Интеграция-с-allure-testops)
-- [Интеграция с Jira](#jira-Интеграция-с-jira)
-- [Уведомления в Telegram с использованием бота](#telegram-Уведомления-в-telegram-с-использованием-бота)
-- [Пример запуска теста в Selenoid](#selenoid-Пример-запуска-теста-в-selenoid)
+- [Отчет о результатах тестирования в Allure Report](#-отчет-о-результатах-тестирования-в-Allure-report)
+- [Интеграция с Allure TestOps](#-интеграция-с-allure-testops)
+- [Интеграция с Jira](#-интеграция-с-jira)
+- [Уведомления в Telegram с использованием бота](#-уведомления-в-telegram-с-использованием-бота)
+- [Пример запуска теста в Selenoid](#-пример-запуска-теста-в-selenoid)
 
 
 ## :technologist: Технологии и инструменты
@@ -26,7 +26,7 @@
 <code><img width="5%" title="GitHub" src="images/logo/GitHub.svg"></code>
 <code><img width="5%" title="Allure Report" src="images/logo/Allure.svg"></code>
 <code><img width="5%" title="Allure TestOps" src="images/logo/Allure_TO.svg"></code>
-<code><img width="5%" title="Jenkins" src="images/logo/Jenkins.svg"></code>
+<code><img width="5%" title="Jenkins" src="images/logo/Jenkins_logo.svg"></code>
 <code><img width="5%" title="Jira" src="images/logo/Jira.svg"></code>
 <code><img width="5%" title="Telegram" src="images/logo/Telegram.svg"></code>
 </p>
@@ -86,13 +86,15 @@ gradle clean test
 </p>
 
 
-## :: Отчет о результатах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/hhru_15/32/allure/)
+## <img width="4%" title="Allure Report" src="images/logo/Allure.svg"> Отчет о результатах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/hhru_15/32/allure/)
 
 <p align="center">
   <img src="images/allure-report1.png" alt="allure-report1" width="900">
 </p>
 
-## Интеграция с [Allure TestOps](https://allure.autotests.cloud/launch/16913)
+
+
+## <img width="4%" title="Allure TestOPS" src="images/logo/Allure_TO.svg"> Интеграция с [Allure TestOps](https://allure.autotests.cloud/launch/16913)
 
 ## Основной дашборд
 
@@ -106,20 +108,20 @@ gradle clean test
   <img src="images/testcase.png" alt="testcase" width="900">
 </p>
 
-## :jira: Интеграция с [Jira](https://jira.autotests.cloud/browse/HOMEWORK-426)
+## <img width="4%" title="Jira" src="images/logo/Jira.svg"> Интеграция с [Jira](https://jira.autotests.cloud/browse/HOMEWORK-426)
 
 <p align="center">
   <img src="images/jira.png" alt="jira" width="900">
 </p>
 
-## :telegram: Уведомления в Telegram с использованием бота
+## <img width="4%" title="Telegram" src="images/logo/Telegram.svg"> Уведомления в Telegram с использованием бота
 После завершения сборки специальный бот, созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с отчетом о прогоне тестов.
 
 <p align="center">
 <img title="Telegram Notifications" src="images/telegram.png">
 </p>
 
-## :selenoid: Пример запуска теста в Selenoid
+## <img width="4%" title="Selenoid" src="images/logo/Selenoid.svg"> Пример запуска теста в Selenoid
 
 К каждому тесту в отчете прилагается видео.
 
