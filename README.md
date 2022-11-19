@@ -1,19 +1,19 @@
 ## Проект по автоматизации тестирования сайта hh.ru
 
-# Содержание:
+##	Содержание
 
-- [Технологии и инструменты](#-Технологии-и-инструменты)
-- [Реализованные проверки](#-Реализованные-проверки)
-- [Запуск тестов из терминала](#-Запуск-тестов-из-терминала)
-- [Запуск тестов в Jenkins](#-Запуск-тестов-в-Jenkins)
-- [Отчет о результатах тестирования в Allure Report](#-отчет-о-результатах-тестирования-в-allure-report)
-- [Интеграция с Allure TestOps](#-интеграция-с-allure-testops)
-- [Интеграция с Jira](#-интеграция-с-jira)
-- [Уведомления в Telegram с использованием бота](#-уведомления-в-telegram-с-использованием-бота)
-- [Пример запуска теста в Selenoid](#-пример-запуска-теста-в-selenoid)
+- [Технологии и инструменты](#technologist-технологии-и-инструменты)
+- [Реализованы проверки](#bookmark_tabs-реализованы-проверки)
+- [Запуск тестов из терминала](#computer-Запуск-тестов-из-терминала)
+- [Запуск тестов в Jenkins](#jenkins-Запуск-тестов-в-Jenkins)
+- [Отчет о результатах тестирования в Allure Report](#allure_report-Отчет-о-результатах-тестирования-в-Allure-report)
+- [Интеграция с Allure TestOps](#allure_test_ops-Интеграция-с-allure-testops)
+- [Интеграция с Jira](#jira-Интеграция-с-jira)
+- [Уведомления в Telegram с использованием бота](#telegram-Уведомления-в-telegram-с-использованием-бота)
+- [Пример запуска теста в Selenoid](#selenoid-Пример-запуска-теста-в-selenoid)
 
 
-## Технологии и инструменты
+## :technologist: Технологии и инструменты
 
 <p  align="center">
 
@@ -32,14 +32,14 @@
 </p>
 
 
-## Реализованные проверки:
+## :bookmark_tabs: Реализованные проверки:
 
 - Проверка результатов поиска работы 
 - Проверка отображаения блока сервисов для соискателей 
 - Проверка отображения дашборда с вакансиями
 - Проверка отображения главной страницы 
 
-## Запуск тестов из терминала
+## :computer: Запуск тестов из терминала
 
 ### Локальный запуск тестов
 
@@ -70,7 +70,7 @@ gradle clean test
 
  <code>THREADS</code> - параллельный запуск тестов (_по умолчанию - 5_).
 
-## Запуск тестов в [Jenkins] (https://jenkins.autotests.cloud/job/hhru_15/)
+## :jenkins: Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/hhru_15/)
 
 Для запуска сборки необходимо указать значения параметров и нажать кнопку <code><strong>*Собрать*</strong></code>.
 
@@ -86,13 +86,13 @@ gradle clean test
 </p>
 
 
-## Отчет о результатах тестирования в [Allure Report] (https://jenkins.autotests.cloud/job/hhru_15/32/allure/)
+## :allure_report: Отчет о результатах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/hhru_15/32/allure/)
 
 <p align="center">
   <img src="images/allure-report1.png" alt="allure-report1" width="900">
 </p>
 
-## Интеграция с [Allure TestOps] (https://allure.autotests.cloud/launch/16913)
+## :allure_test_ops: Интеграция с [Allure TestOps](https://allure.autotests.cloud/launch/16913)
 
 ## Основной дашборд
 
@@ -106,20 +106,20 @@ gradle clean test
   <img src="images/testcase.png" alt="testcase" width="900">
 </p>
 
-## Интеграция с [Jira] (https://jira.autotests.cloud/browse/HOMEWORK-426)
+## :jira: Интеграция с [Jira](https://jira.autotests.cloud/browse/HOMEWORK-426)
 
 <p align="center">
   <img src="images/jira.png" alt="jira" width="900">
 </p>
 
-## Уведомления в Telegram с использованием бота
+## :telegram: Уведомления в Telegram с использованием бота
 После завершения сборки специальный бот, созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с отчетом о прогоне тестов.
 
 <p align="center">
 <img title="Telegram Notifications" src="images/telegram.png">
 </p>
 
-## Пример запуска теста в Selenoid
+## :selenoid: Пример запуска теста в Selenoid
 
 К каждому тесту в отчете прилагается видео.
 
