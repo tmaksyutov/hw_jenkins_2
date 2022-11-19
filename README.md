@@ -70,7 +70,7 @@ gradle clean test
 
  <code>THREADS</code> - параллельный запуск тестов (_по умолчанию - 5_).
 
-## <img width="4%" title="Jenkins" src="images/logo/Jenkins_logo.svg">  Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/hhru_15/)
+## <img width="4%" title="Jenkins" src="images/logo/Jenkins_logo.svg"> Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/hhru_15/)
 
 Для запуска сборки необходимо указать значения параметров и нажать кнопку <code><strong>*Собрать*</strong></code>.
 
