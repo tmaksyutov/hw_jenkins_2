@@ -92,7 +92,7 @@ gradle clean test
   <img src="images/allure-report1.png" alt="allure-report1" width="900">
 </p>
 
-## :allure_test_ops: Интеграция с [Allure TestOps](https://allure.autotests.cloud/launch/16913)
+## Интеграция с [Allure TestOps](https://allure.autotests.cloud/launch/16913)
 
 ## Основной дашборд
 
