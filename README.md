@@ -1,4 +1,4 @@
-## <img width="4%" title="Allure TestOPS" src="images/logo/hh_logo.svg"> Проект по автоматизации тестирования сайта hh.ru
+# <img width="4%" title="Allure TestOPS" src="images/logo/hh_logo.svg"> Проект по автоматизации тестирования сайта hh.ru
 
 ##	Содержание
 
@@ -33,6 +33,7 @@
 
 
 ## :bookmark_tabs: Реализованные проверки:
+### UI Tests
 
 - Проверка результатов поиска работы 
 - Проверка отображаения блока сервисов для соискателей 
@@ -68,7 +69,7 @@ gradle clean test
 
  <code>remoteUrl</code> – логин, пароль и адрес удаленного сервера Selenoid (_по умолчанию указаны в сборке Jenkins_).
 
- <code>THREADS</code> - параллельный запуск тестов (_по умолчанию - 5_).
+ <code>THREADS</code> - параллельный запуск тестов (_по умолчанию - <code>5</code>_).
 
 ## <img width="4%" title="Jenkins" src="images/logo/Jenkins_logo.svg"> Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/hhru_15/)
 
