@@ -2,10 +2,10 @@
 
 ##	Содержание
 
-- [Технологии и инструменты](#-Технологии-и-инструменты)
+- [Технологии и инструменты](#technologist-технологии-и-инструменты)
 - [Реализованы проверки](#bookmark_tabs-реализованы-проверки)
-- [Запуск тестов из терминала](#computer-Запуск-тестов-из-терминала)
-- [Запуск тестов в Jenkins](#jenkins-Запуск-тестов-в-Jenkins)
+- [Запуск тестов из терминала](#computer-запуск-тестов-из-терминала)
+- [Запуск тестов в Jenkins](#-запуск-тестов-в-Jenkins)
 - [Отчет о результатах тестирования в Allure Report](#allure_report-Отчет-о-результатах-тестирования-в-Allure-report)
 - [Интеграция с Allure TestOps](#-Интеграция-с-allure-testops)
 - [Интеграция с Jira](#jira-Интеграция-с-jira)
@@ -13,7 +13,7 @@
 - [Пример запуска теста в Selenoid](#selenoid-Пример-запуска-теста-в-selenoid)
 
 
-## Технологии и инструменты
+## :technologist: Технологии и инструменты
 
 <p  align="center">
 
@@ -70,7 +70,7 @@ gradle clean test
 
  <code>THREADS</code> - параллельный запуск тестов (_по умолчанию - 5_).
 
-## :jenkins: Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/hhru_15/)
+## <img width="3" title="Jenkins" src="images/logo/Jenkins_logo.svg">  Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/hhru_15/)
 
 Для запуска сборки необходимо указать значения параметров и нажать кнопку <code><strong>*Собрать*</strong></code>.
 
@@ -86,7 +86,7 @@ gradle clean test
 </p>
 
 
-## :allure_report: Отчет о результатах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/hhru_15/32/allure/)
+## :: Отчет о результатах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/hhru_15/32/allure/)
 
 <p align="center">
   <img src="images/allure-report1.png" alt="allure-report1" width="900">
